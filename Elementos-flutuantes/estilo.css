@@ -1,0 +1,26 @@
+#principal{
+    border: 5px red solid;
+    background: orange;
+}
+.conteudo{
+    background: green;
+    border: 2px solid gray;
+    width: 150px;
+    height:150px;
+    margin: 10px 100px;
+    float: left;
+}
+.paragrafo{
+    text-align: center;
+    color: white;
+}
+.clear{
+clear: both;
+}
+
+/*float aplica aos elementos como se estivessem flutuando um ao lado do outro, IMPORTANTE!!
+se comportão como se não existissem, um texto aplicado ficaria em volta do elemento float
+já um titulo ficaria abaixo do elmento com dificuldade de visualização.
+clear server para limpar o caminho do float conseguindo aplicar o titulos, textos, paragrafos e imagens normalmente.
+quando utilizado o clear:both, temos o mesmo resultado em ambos os lados,
+devesmos utilizar o clear para qualquer coisa que se for usar junto de um elemento float.

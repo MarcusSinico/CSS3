@@ -1,0 +1,32 @@
+
+.conteudo{
+    border: 1px solid red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 150px;
+}
+    /*padding-top-right-bottom-left podem ser customizado em uma unica linha*/
+
+.conteudo2{
+        border: 1px solid red;
+        padding: 5px 10px 15px 30px;
+        width: 150px;
+        margin: 10px;
+ }
+/*Margin definição de espaçamento, quando se aplicada duas margeins em dois elementos
+um em baixo do outro o mior sempre sera aplicado*/
+
+.noticia{
+    text-align: top;
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    margin: 100px;
+}
+h2{
+    border: 1px solid red;
+    margin: 0px;
+    text-align: center;
+}

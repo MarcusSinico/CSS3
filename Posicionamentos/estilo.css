@@ -1,0 +1,58 @@
+body{
+    background: aqua;
+}
+#container{
+    width: 800px;
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+h1{
+text-align: center;
+}
+.borda{
+    border: 1px solid red;
+}
+p{
+    width: 300px
+}
+.relative{
+    border: 1px solid red;
+    position: relative;
+    bottom: 1385px;
+    left:475px;
+    padding: 10px;
+}
+.absoluto1{
+    border: 1px solid red;
+    background: #f2f2;
+    position:absolute;
+    top:300px;
+    right:13px;
+    padding: 10px;
+}
+.absoluto2{
+    border: 1px solid red;
+    background: #f2f2;
+    position:absolute;
+    top:525px;
+    right:13px;
+    padding: 10px;
+}
+.absoluto3{
+    border: 1px solid red;
+    background: #f2f2;
+    position:absolute;
+    top:752px;
+    right:13px;
+    padding: 10px;
+}
+/*Posicionamento static é padrão do navegador position relativo existe 4 propriedade
+para deslocamento top, right, bottom, left, TOP vai pra baixo em positivo negativo vai pra cima
+RIGHT positivo vai para a esquerda negativo vai para direita e  vice-versa nos dois LEFT e BOTTOM 
+absolute esse cara é complicado quer passar por cima de todo mundo por isso é necessario ter
+precisão na hora de utilizalo ele se basea no corpo do documento necessareiamente 
+precisara utilizar um position: relative, para que não saia de dentro do conteiner.
+quando se utiliza o posicionamento fixo ele sempre se basea com o posicionamento da janela
+utilizado bastante em chats de paginas ou menus.  */
